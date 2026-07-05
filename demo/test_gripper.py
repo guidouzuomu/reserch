@@ -1,4 +1,4 @@
-from demo.elegripper_modbus import Gripper
+from elegripper_modbus import Gripper
 import time
 if __name__=="__main__":
     g=Gripper("/dev/ttyCH343USB0",baudrate=115200,id=14)##填写实际的串口号和波特率和夹爪ID
